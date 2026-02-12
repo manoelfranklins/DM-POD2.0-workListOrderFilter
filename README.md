@@ -6,6 +6,8 @@ A custom POD 2.0 widget that adds an Order filter capability to filter work list
 
 This extension provides an "Order Filter for Work List" widget that can be placed alongside the standard WorkListTable widget in your POD. It allows operators to filter work list items by Order number.
 
+<img width="1198" height="473" alt="image" src="https://github.com/user-attachments/assets/c03712b9-54cc-413a-a6dd-691ee6614363" />
+
 ## Features
 
 - **Order Filter Input**: Text input field to enter Order number
@@ -29,12 +31,14 @@ widget/
 
 1. Navigate to **Manage PODs 2.0** app
 2. Go to **Extensions** tab
-3. Click **Create**
+3. Click **Upload**
 4. Fill in:
-   - **Name**: OrderFilterWorkList (or your preferred name)
+   - **Name**: WorkListTableExtension (or your preferred name)
    - **Namespace**: `custom/worklistext`
    - **Source Code**: Upload the ZIP file
-5. Click **Create**
+5. Click **Save**
+
+<img width="1902" height="709" alt="image" src="https://github.com/user-attachments/assets/f5efbb01-505b-47a6-b047-bfa77ac06ed6" />
 
 ### 3. Add Widget to POD
 
@@ -43,12 +47,16 @@ widget/
 3. Drag and drop it onto your POD layout (place it near your WorkListTable widget)
 4. Save the POD
 
+<img width="1591" height="539" alt="image" src="https://github.com/user-attachments/assets/223c705c-c041-4d2e-910e-67c8e9ffd798" />
+
 ## Configuration
 
 | Property | Description | Default |
 |----------|-------------|---------|
 | Order Filter Visible | Shows or hides the Order filter | true |
 | Filter on Enter Only | If true, filter only when Enter is pressed. If false, filter as you type | true |
+
+<img width="327" height="326" alt="image" src="https://github.com/user-attachments/assets/febac1d9-449d-44ca-a39d-041dc613dcd5" />
 
 ## Usage
 
@@ -90,4 +98,13 @@ widget/
 
 ## License
 
-This extension is provided as-is for SAP Digital Manufacturing customization.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👨‍💻 Author
+
+Manoel Costa
+http://manoelcosta.com/
+
+---
+
+**Disclaimer:** This is a community extension and is not officially supported by SAP. Use at your own discretion.
