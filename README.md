@@ -1,4 +1,4 @@
-# Order Filter for Work List - POD 2.0 Extension
+# Order Filter for Work List
 
 A custom POD 2.0 widget that adds an Order filter capability to filter work list items in SAP Digital Manufacturing.
 
