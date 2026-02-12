@@ -1,0 +1,9 @@
+{
+    "widgets": [
+        {
+            "modulePath": "custom/worklistext/widget/WorkListTableExtension",
+            "type": "custom.worklistext.widget.WorkListTableExtension"
+        }
+    ],
+    "actions": []
+}
